@@ -1,53 +1,138 @@
-# Project Title
+
+# Project Title: Photography Studio Website
 
 ## Overview
 
-What is your app? Give a brief description in a couple of sentences.
+The app is a photography studio website designed to showcase photography services, display portfolios, and allow users to book appointments online. It features various service categories such as wedding, prewedding, portrait, and headshot, with galleries for each service. Additionally, users can book sessions using an integrated calendar system.
 
 ### Problem Space
 
-Why is your app needed? Give any background information around any pain points or other reasons.
+Photography clients often find it challenging to view a photographer's full portfolio and book sessions seamlessly online. This app addresses the need for a streamlined user experience where potential clients can explore photography services, view sample galleries, and book appointments in a user-friendly manner. It simplifies the process of discovering and scheduling photography services while ensuring a visually appealing design.
 
 ### User Profile
 
-Who will use your app? How will they use it? Add any special considerations that your app must take into account.
+The target users of the app are potential photography clients, including couples planning weddings, individuals needing professional headshots, and families looking for portrait services. Users can easily navigate the website to view sample work in the galleries, read testimonials from previous clients, and book a photography session online. Special considerations include making the booking process simple and intuitive, and the website should be responsive for mobile and desktop users.
 
 ### Features
 
-List the functionality that your app will include. These can be written as user stories or descriptions with related details. Do not describe _how_ these features are implemented, only _what_ needs to be implemented.
+- **Homepage**: 
+  - Displays key sections such as Hero Image Slider, About the Photographer, Services, Testimonials, and a Call to Action for booking (Appointment for consultation)
+- **Services Section**:
+  - Displays four primary photography services: Wedding, Prewedding, Portrait, and Headshot, with links to detailed galleries for each service.
+- **Booking System**:
+  - Allows users to book sessions directly online through an integration with Google Calendar and Google Meet.
+- **Galleries**:
+  - Displays photography portfolios for each service, with individual sections for each couple or event.
+  - Users can click on images to view larger versions, with previous/next navigation options.
+- **Pricing and FAQ**:
+  - Transparent pricing for photography services, along with a frequently asked questions (FAQ) section to address common concerns.
+- **Blog Section**:
+  - Displays articles about photography techniques, client stories, and more.
 
 ## Implementation
 
 ### Tech Stack
 
-List technologies that will be used in your app, including any libraries to save time or provide more functionality. Be sure to research any potential limitations.
+- **Frontend**: 
+  - React.js for building the user interface.
+  - React Router for managing navigation between pages.
+  - Tailwind CSS or SCSS for styling.
+  - Formik for form handling in the booking system.
+  - Yup for form validation. (Optional)
+  - React Lightbox for gallery image display and navigation.
+  
+- **Libraries**:
+  - Google Calendar API for handling bookings.
+  - Google Meet API for generating meeting links.
+  - React Modal for image enlargement and navigation.
 
 ### APIs
 
-List any external sources of data that will be used in your app.
+- **Google Calendar API**: 
+  - To manage online bookings and send calendar invitations to clients.
+  
+- **Google Meet API**: 
+  - To automatically generate video meeting links for virtual consultations.
 
 ### Sitemap
 
-List the pages of your app with brief descriptions. You can show this visually, or write it out.
+1. **Homepage**: 
+   - Includes sections for Hero Image, About, Services, Testimonials, and a Call to Action for booking.
+   
+2. **Services Page**: 
+   - Displays information about four main services with links to individual galleries.
+   
+3. **Gallery Pages**: 
+   - Each service has a separate gallery page with portfolios organized by couple or event.
+   
+4. **Pricing & Booking**: 
+   - Displays transparent pricing information and an FAQ section.
+   - Includes an integrated booking system for scheduling appointments.
+   
+5. **Blog Page**: 
+   - Showcases photography-related articles and posts.
 
 ### Mockups
 
-Provide visuals of your app's screens. You can use pictures of hand-drawn sketches, or wireframing tools like Figma.
+- **Wireframes**:
+
+
 
 ### Data
 
-Describe your data and the relationships between the data points. You can show this visually using diagrams, or write it out. 
+- **Services**:
+  - Service data such as title, description, and image link.
+  
+- **Galleries**:
+  - Organized by service type (e.g., Wedding, Prewedding), with image links, couple names, and event descriptions.
+
+- **Testimonials**:
+  - Stores client names, feedback, and images.
+  
+- **Booking Data**:
+  - Stores client information such as name, email, and appointment date. This data is passed to Google Calendar for meeting creation.
 
 ### Endpoints
 
-List endpoints that your server will implement, including HTTP methods, parameters, and example responses.
+Since this project relies on external APIs and frontend form handling, there are no backend endpoints required at this time. All external data (such as calendar integration) will be handled via Google Calendar and Google Meet APIs.
+
 
 ## Roadmap
 
-Scope your project as a sprint. Break down the tasks that will need to be completed and map out timeframes for implementation working back from the capstone due date. 
+### **Day 1-2:**
+   - **Homepage**: 
+     - Build the homepage structure with Hero Image, About section, Services, Testimonials, and Call to Action components.
+     - Create reusable components for Services and Testimonials.
+     - Set up basic navigation with **React Router**.
+
+### **Day 3:**
+   - **Gallery Pages**:
+     - Implement the Gallery pages for each service type (Wedding, Prewedding, Portrait, Headshot).
+     - Implement **React Lightbox** for image enlargement and navigation.
+
+### **Day 4-5:**
+   - **Pricing & Booking Page**:
+     - Set up the Pricing section with transparent pricing information.
+     - Implement the FAQ section with commonly asked questions.
+     - Use **Formik** for form handling and **Yup** for form validation in the booking form.
+     - Integrate **Google Calendar API** to handle bookings and **Google Meet API** to generate meeting links.
+     - Ensure form validation and submission are functioning correctly.
+
+### **Day 6:**
+   - **Blog Page**:
+     - Set up a simple blog page with static articles and photography tips.
+     - Ensure navigation and responsive design are functioning as expected.
+
+### **Day 7:**
+   - **Testing & Optimization**:
+     - Test all major components and forms for functionality, responsiveness, and performance.
+     - Fix any bugs or issues that arise.
+     - Conduct performance optimization (e.g., lazy loading for images) and finalize the project.
 
 ---
 
-## Future Implementations
-Your project will be marked based on what you committed to in the above document. Here, you can list any additional features you may complete after the MVP of your application is built, or if you have extra time before the Capstone due date.
-
+### **Future Implementations:**
+- **Instagram Feed**: Dynamically display Instagram posts.
+- **Advanced Blog Features**: Implement a CMS for easy blog content updates.
+- **Client Management System**: Add client history tracking and automated reminders for appointments.
+- **Visual Enhancements**: Add animations and enhanced visual effects to improve user engagement.
