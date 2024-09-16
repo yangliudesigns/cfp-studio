@@ -68,7 +68,6 @@ The target users of the app are potential photography clients, including couples
 - **Wireframes**:
 
 
-
 ### Data
 
 - **Booking Data**:
