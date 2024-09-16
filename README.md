@@ -75,13 +75,7 @@ The target users of the app are potential photography clients, including couples
 ### Mockups
 
 - **Wireframes**:
-![Home](https://github.com/user-attachments/assets/df6218f9-f475-492d-9f1a-8d06f597a5b5)
-![Pricing](https://github.com/user-attachments/assets/60501ae9-2331-4d3a-bd84-66eb88581e78)
-![Pricing - Booking](https://github.com/user-attachments/assets/139bb7ed-d218-494d-99c7-d938e5a7f27f)
-![Gallery](https://github.com/user-attachments/assets/0b750c94-ce5d-48bb-808e-4c51863bf0ac)
-![Gallery - path](https://github.com/user-attachments/assets/08b13edb-6d11-4213-9126-b9b501c79abe)
-![Gallery - path - enlarge](https://github.com/user-attachments/assets/75a3578f-3e01-4f76-8170-a6bce25804ae)
-![Blog (optional)](https://github.com/user-attachments/assets/db248645-4bb1-42d7-8a7d-c7a0fddd7a8e)
+
 
 ### Data
 
