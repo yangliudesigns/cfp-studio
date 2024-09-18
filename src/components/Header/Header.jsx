@@ -1,6 +1,6 @@
 import "./Header.scss";
-import logo from "../../assets/images/cfp-logo.ong";
-import { Link } from 'react-router-dom';
+import logo from "../../assets/images/cfp-logo.png";
+import { Link, NavLink } from 'react-router-dom';
 
 
 export default function Header() {

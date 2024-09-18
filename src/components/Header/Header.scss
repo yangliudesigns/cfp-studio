@@ -1,0 +1,38 @@
+@use "../../styles/partials/global" as *;
+@use "../../styles/partials/mixins" as *;
+@use "../../styles/partials/typography" as *;
+@use "../../styles/partials/variables" as *;
+
+
+.header {
+    width: 100vw;
+    height: 12.5rem;
+    background-color: $primary-white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: -1rem;
+
+    &__logo {
+        padding: 1.5rem 0;
+        width: 13rem;
+    }
+
+    &__link {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    &__link > a {
+        width: 43.7%;
+        height: 2.25rem;
+        border-radius: 1.25rem;
+        text-align: center;
+        font-size: 1rem;
+        font-weight: $bold;
+        line-height: 2.25rem;
+        text-decoration: none;
+        color: $primary-dark;
+    }
+}
