@@ -1,0 +1,23 @@
+[
+    {
+      "id": 1,
+      "text": "Service 1",
+      "imageSrc": "path/to/image1.jpg"
+    },
+    {
+      "id": 2,
+      "text": "Service 2",
+      "imageSrc": "path/to/image2.jpg"
+    },
+    {
+      "id": 3,
+      "text": "Service 3",
+      "imageSrc": "path/to/image3.jpg"
+    },
+    {
+      "id": 4,
+      "text": "Service 4",
+      "imageSrc": "path/to/image4.jpg"
+    }
+  ]
+  
