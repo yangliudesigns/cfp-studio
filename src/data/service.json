@@ -1,23 +1,22 @@
 [
-    {
-      "id": 1,
-      "text": "Service 1",
-      "imageSrc": "path/to/image1.jpg"
-    },
-    {
-      "id": 2,
-      "text": "Service 2",
-      "imageSrc": "path/to/image2.jpg"
-    },
-    {
-      "id": 3,
-      "text": "Service 3",
-      "imageSrc": "path/to/image3.jpg"
-    },
-    {
-      "id": 4,
-      "text": "Service 4",
-      "imageSrc": "path/to/image4.jpg"
-    }
-  ]
-  
+  {
+    "id": 1,
+    "text": "Engagement",
+    "imageSrc": "/service-images/service-1.png"
+  },
+  {
+    "id": 2,
+    "text": "Pre-Wedding",
+    "imageSrc": "/service-images/service-2.png"
+  },
+  {
+    "id": 3,
+    "text": "Wedding",
+    "imageSrc": "/service-images/service-3.png"
+  },
+  {
+    "id": 4,
+    "text": "Portrait",
+    "imageSrc": "/service-images/service-4.png"
+  }
+]

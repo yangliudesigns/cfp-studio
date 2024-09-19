@@ -5,21 +5,33 @@
 
 
 .about {
-    padding: 4rem 6rem;
+    padding: 2rem 1rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
+
+    @include tablet {
+        padding: 4rem 6rem;
+    }
+
+    &__header {
+        font-style: italic;
+        line-height: 2rem;
+        text-align: center;
+    }
+    
+    &__text {
+        margin-top: 1rem;
+        font-style: italic;
+        line-height: 1.5rem;
+        text-align: center;
+    }
+
+    &__name {
+        margin-top: 2rem;
+        font-style: italic;
+        line-height: 1.5rem;
+        text-align: center;
+    }
 }
 
-h4 {
-    font-style: italic;
-    line-height: 2rem;
-    text-align: center;
-}
-
-p {
-    margin-top: 2rem;
-    font-style: italic;
-    line-height: 1.5rem;
-    text-align: center;
-}

@@ -12,7 +12,6 @@ export default function Home() {
       <Header />
       <Hero />
       <About />
-      <ServiceCard />
       <Service />
       <Footer />
     </div>
