@@ -1,0 +1,74 @@
+@use "../../styles/partials/global" as *;
+@use "../../styles/partials/mixins" as *;
+@use "../../styles/partials/typography" as *;
+@use "../../styles/partials/variables" as *;
+
+
+.pricing-card-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+  
+    // 基本样式：默认是移动端单列布局
+    .pricing-card {
+      flex: 1 1 calc(100% - 40px);  // 移动端每行1个卡片
+      max-width: 100%;
+      background-color: #333;
+      border-radius: 10px;
+      padding: 20px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      transition: transform 0.3s ease-in-out;
+    }
+  
+    // 控制卡片在 hover 时的放大效果
+    .pricing-card:hover {
+      transform: scale(1.05);
+    }
+  
+    .pricing-card__logo {
+      width: 100px;
+      margin-bottom: 10px;
+    }
+  
+    .pricing-card__location,
+    .pricing-card__description,
+    .pricing-card__price {
+      color: #fff;
+      margin-bottom: 10px;
+    }
+  
+    .pricing-card__location {
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+  
+    .pricing-card__description {
+      font-size: 1.2rem;
+    }
+  
+    .pricing-card__price {
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+  
+    // 使用你的 tablet mixin：在平板设备上，每行显示2个卡片
+    @include tablet {
+      .pricing-card {
+        flex: 1 1 calc(50% - 40px);  // 平板设备时每行2个卡片
+      }
+    }
+  
+    // 使用你的 desktop mixin：在桌面设备上，每行显示3个卡片
+    @include desktop {
+      .pricing-card {
+        flex: 1 1 calc(33.33% - 40px);  // 桌面设备时每行3个卡片
+      }
+    }
+  }
+  
