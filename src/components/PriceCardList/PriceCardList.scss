@@ -8,8 +8,8 @@
     display: flex;
     flex-wrap: wrap;  // 让卡片能够换行排列
     justify-content: center;  // 卡片居中对齐
-    gap: 20px;
-    padding: 20px;
+    gap: 1.25rem;
+    padding: 1.25rem;
     flex-direction: column; // 默认是竖向排列 (mobile first)
     align-items: center;  // 卡片居中对齐
 
