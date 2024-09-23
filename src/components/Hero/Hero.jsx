@@ -1,12 +1,13 @@
 import "./Hero.scss";
 import { Slide, Fade } from 'react-slideshow-image';
 import "react-slideshow-image/dist/styles.css";
-import hero1 from "../../assets/images/hero-1.png";
-import hero2 from "../../assets/images/hero-2.jpg";
-import hero3 from "../../assets/images/hero-3.png";
-import hero4 from "../../assets/images/hero-4.png";
-import hero5 from "../../assets/images/hero-5.png";
-import hero6 from "../../assets/images/hero-6.png";
+import hero1 from "../../assets/images/hero-1.webp";
+import hero2 from "../../assets/images/hero-2.webp";
+import hero3 from "../../assets/images/hero-3.webp";
+import hero4 from "../../assets/images/hero-4.webp";
+import hero5 from "../../assets/images/hero-5.webp";
+import hero6 from "../../assets/images/hero-6.webp";
+import hero7 from "../../assets/images/hero-7.webp";
 
 export default function Hero() {
 
@@ -17,6 +18,7 @@ export default function Hero() {
         hero4,
         hero5,
         hero6,
+        hero7,
       ];
     
 

@@ -5,7 +5,7 @@
 
 
 .about {
-    padding: 2rem 1rem;
+    padding: 2rem 1.5rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -15,23 +15,39 @@
     }
 
     &__header {
+        font-size: 1.5rem;
         font-style: italic;
         line-height: 2rem;
         text-align: center;
+
+        @include desktop {
+            font-size: 2rem;
+            line-height: 2.75rem;
+        }
     }
     
-    &__text {
-        margin-top: 1rem;
-        font-style: italic;
-        line-height: 1.5rem;
-        text-align: center;
-    }
+    // &__text {
+    //     margin-top: 1.5rem;
+    //     // font-style: italic;
+    //     line-height: 1.5rem;
+    //     text-align: center;
+    //     color: $primary-gray;
+
+    //     @include desktop {
+    //         font-size: 1.25rem;
+    //     }
+    // }
 
     &__name {
         margin-top: 2rem;
         font-style: italic;
         line-height: 1.5rem;
         text-align: center;
+        color: $secondary-color;
+
+        @include desktop {
+            font-size: 1.25rem;
+        }
     }
 }
 
