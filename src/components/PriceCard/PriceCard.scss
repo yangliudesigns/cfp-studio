@@ -4,71 +4,59 @@
 @use "../../styles/partials/variables" as *;
 
 
-.pricing-card-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 1.25rem;
-    padding: 1.25rem;
-  
-    // 基本样式：默认是移动端单列布局
-    .pricing-card {
-      flex: 1 1 calc(100% - 40px);  // 移动端每行1个卡片
+
+.pricing-card {
+      flex: 1 1 calc(100% - 40px);  
       max-width: 100%;
-      background-color: #333;
-      border-radius: .625rem;
-      padding: 1.25rem;
+      background-color: $primary-text;
+      margin: 1.5rem;
+      padding: 3rem;
       text-align: center;
       display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
+      @include flex-center;
       transition: transform 0.3s ease-in-out;
+
+      &:hover {
+        transform: scale(1.05);
+      }
+
+      @include tablet {
+        margin: 2.5rem;
+      }
+
+      @include desktop {
+        margin: 3rem;
+      }
     }
-  
-    // 控制卡片在 hover 时的放大效果
-    .pricing-card:hover {
-      transform: scale(1.05);
-    }
+
   
     .pricing-card__logo {
-      width: 100px;
-      margin-bottom: 10px;
+      width: 8rem;
+      margin-bottom: 9rem;
     }
   
     .pricing-card__location,
     .pricing-card__description,
     .pricing-card__price {
-      color: #fff;
-      margin-bottom: .625rem;
+      color: $primary-white;
+      margin-bottom: .75rem;
     }
   
     .pricing-card__location {
-      font-size: 1.5rem;
-      font-weight: bold;
+      font-size: 1.25rem;
+      font-weight: $medium;
     }
   
     .pricing-card__description {
-      font-size: 1.2rem;
+      font-size: .875rem;
+      font-weight: $regular;
+
     }
   
     .pricing-card__price {
       font-size: 1.5rem;
       font-weight: bold;
+      font-style: italic;
+      margin-top: 2rem;
     }
-  
-    // 使用你的 tablet mixin：在平板设备上，每行显示2个卡片
-    @include tablet {
-      .pricing-card {
-        flex: 1 1 calc(50% - 2.5rem);  // 平板设备时每行2个卡片
-      }
-    }
-  
-    // 使用你的 desktop mixin：在桌面设备上，每行显示3个卡片
-    @include desktop {
-      .pricing-card {
-        flex: 1 1 calc(33.33% - 2.5rem);  // 桌面设备时每行3个卡片
-      }
-    }
-  }
   
