@@ -7,7 +7,7 @@
 1. cd cfp-studio
 2. npm i
 3. cp .env.example .env.local
-   # update .env.local
+   #update .env.local
 4. npm run build
    npm run start
    npm run dev
