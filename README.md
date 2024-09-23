@@ -1,6 +1,18 @@
 
 # Project Title: Photography Studio Website
 
+
+## How to start
+
+1. cd cfp-studio
+2. npm i
+3. cp .env.example .env.local
+   <!-- update .env.local accordingly -->
+4. npm run build
+   npm run start
+   npm run dev
+
+
 ## Overview
 
 The app is a photography studio website designed to showcase photography services, display portfolios, and allow users to book appointments online. It features various service categories such as wedding, prewedding, portrait, and headshot, with galleries for each service. Additionally, users can book sessions using an integrated calendar system.
@@ -11,12 +23,12 @@ Photography clients often find it challenging to view a photographer's full port
 
 ### User Profile
 
-The target users of the app are potential photography clients, including couples planning weddings, individuals needing professional headshots, and families looking for portrait services. Users can easily navigate the website to view sample work in the galleries, read testimonials from previous clients, and book a consultant session online. Special considerations include making the booking process simple and intuitive, and the website should be responsive for mobile and desktop users.
+The target users of the app are potential photography clients, including couples planning weddings, individuals needing professional headshots, and families looking for portrait services. Users can easily navigate the website to view sample work in the galleries, and book a consultant session online. Special considerations include making the booking process simple and intuitive, and the website should be responsive for mobile and desktop users.
 
 ### Features
 
 - **Homepage**: 
-  - Displays key sections such as Hero Image Slider, About the Photographer, Services, and a Call to Action for booking (Appointment for consultation)
+  - Displays key sections such as Hero Image Slider, About the Branding, Services.
 
 - **Pricing and Booking System**:
   - Allows users to book sessions directly online through an integration with Google Calendar and Google Meet.
@@ -33,9 +45,7 @@ The target users of the app are potential photography clients, including couples
 - **Frontend**: 
   - React.js for building the user interface.
   - React Router for managing navigation between pages.
-  - Tailwind CSS or SCSS for styling.
-  - Formik for form handling in the booking system.
-  - React Lightbox for gallery image display and navigation.
+  - SCSS for styling.
   
 - **Libraries**:
   - Google Calendar API for handling bookings.
@@ -53,7 +63,7 @@ The target users of the app are potential photography clients, including couples
 ### Sitemap
 
 1. **Homepage**: 
-   - Includes sections for Hero Image, About, Services, and a Call to Action for booking.
+   - Includes sections for Hero Image, About, Services.
    
 2. **Gallery Page**: 
    - A gallery page with portfolios.
@@ -70,20 +80,21 @@ The target users of the app are potential photography clients, including couples
 
 ### Data
 
-- **Booking Data**:
-  - Stores client information such as name, email, and appointment date. This data is passed to Google Calendar for meeting creation.
+- **Gallery Images Data**
+  - Store Pictures for gallery grid 
+- **Service Data**
+  - Store Picture as bg and subtitle for each pictures
+- **Pricing Data**
+  - Store different packages and info
+
 
 ### Endpoints
 
 Since this project relies on external APIs and frontend form handling, there are no backend endpoints required at this time. All external data (such as calendar integration) will be handled via Google Calendar and Google Meet APIs.
 
-
-## Roadmap
-
-
 ---
 
-### **Future Implementations:**
+### **Nice to have:**
 - **FAQ**
 - **Testimonials**
 - **Instagram Feed**: Dynamically display Instagram posts.
