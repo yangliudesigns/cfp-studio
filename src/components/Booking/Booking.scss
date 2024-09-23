@@ -4,22 +4,44 @@
 @use "../../styles/partials/variables" as *;
 
 .booking-section {
-    padding: 2rem;
     text-align: center;
     background-color: $primary-bg;
+    margin: 2rem 0;
+    padding: 2rem;
+
+    @include tablet {
+      margin: 3rem 0;
+      padding: 4rem;
+    }
+
+    @include desktop {
+      margin: 5rem 0;
+      padding: 6rem 10rem;
+    }
 
     &__text {
-      font-size: 1.2rem;
-      margin-bottom: 1rem;
-      color: #333;
+      font-size: 1rem;
+      line-height: 1.375rem;
+      margin-bottom: 1.5rem;
+      color: $primary-text;
+
+      @include tablet {
+        font-size: 1.125rem;
+        line-height: 1.5rem;
+        margin-bottom: 1.75rem;
+      }
+
+      @include desktop {
+        line-height: 1.75rem;
+        margin-bottom: 2rem;
+      }
     }
 
     &__btn {
       padding: 0.75rem 1.5rem;
-      background-color: #007bff;
-      color: white;
+      background-color: $secondary-color;
+      color: $primary-white;
       border: none;
-      border-radius: 5px;
       cursor: pointer;
       font-size: 1rem;
       transition: background-color 0.3s ease;
@@ -30,43 +52,43 @@
       }
 
       &:hover {
-        background-color: #0056b3;
+        background-color: $secondary-hover;
       }
     }
 
     .calendar-popup {
       margin-top: 2rem;
-      padding: 1rem;
-      border: 1px solid #ccc;
-      background-color: white;
-      border-radius: 10px;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-      max-width: 400px;
+      padding: 1.5rem;
+      border: 1px solid $primary-gray;
+      background-color: $primary-white;
+      max-width: 37.5rem;
       margin-left: auto;
       margin-right: auto;
 
       input[type="date"],
       input[type="time"] {
-        display: block;
-        width: 100%;
-        padding: 0.5rem;
-        margin: 0.5rem 0;
-        border-radius: 5px;
-        border: 1px solid #ccc;
+        display: inline-block;
+        width: 87%;
+        padding: 1rem;
+        margin: 1rem 0;
+        border: 1px solid $primary-gray;
+
+        @include desktop {
+          width: 94%;
+        }
       }
 
       .confirm-button {
         padding: 0.75rem 1.5rem;
-        background-color: #28a745;
-        color: white;
+        background-color: $secondary-color;
+        color: $primary-white;
         border: none;
-        border-radius: 5px;
         cursor: pointer;
         font-size: 1rem;
         transition: background-color 0.3s ease;
 
         &:hover {
-          background-color: #218838;
+          background-color: $secondary-hover;
         }
       }
     }

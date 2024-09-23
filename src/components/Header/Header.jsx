@@ -15,8 +15,8 @@ export default function Header() {
             </Link>
 
             <div className="header__link">
-                <NavLink to="/gallery">Gallery</NavLink>
-                <NavLink to="/pricing">Pricing</NavLink>
+                <NavLink to="/gallery">GALLERY</NavLink>
+                <NavLink to="/pricing">PRICING</NavLink>
             </div>
         </nav>
     )
