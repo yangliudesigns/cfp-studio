@@ -1,27 +1,49 @@
 @use './variables' as *;
 @use './mixins' as *;
 
+
 //font source
 @font-face {
-    font-family: 'Lato';
-    src: url('../../assets/fonts/Lato-Bold.woff2') format('woff2'),
-        url('../../assets/fonts/Lato-Bold.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Lato';
-    src: url('../../assets/fonts/Lato-Regular.woff2') format('woff2'),
-        url('../../assets/fonts/Lato-Regular.woff') format('woff');
+    font-family: 'Inter 18pt';
+    src: url('../../assets/fonts/Inter18pt-Regular.woff2') format('woff2'),
+        url('../../assets/fonts/Inter18pt-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
 
+@font-face {
+    font-family: 'Inter 18pt';
+    src: url('../../assets/fonts/Inter18pt-Medium.woff2') format('woff2'),
+        url('../../assets/fonts/Inter18pt-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 18pt';
+    src: url('../../assets/fonts/Inter18pt-SemiBold.woff2') format('woff2'),
+        url('../../assets/fonts/Inter18pt-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 24pt';
+    src: url('../../assets/fonts/Inter24pt-Bold.woff2') format('woff2'),
+        url('../../assets/fonts/Inter24pt-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
 
 //type base
-$family: 'Lato', sans-serif;
-$regular: 400;
-$bold: 700;
+$family: 'MYFONT', sans-serif;
+$regular: normal;
+$medium: 500;
+$semi: 600;
+$bold: bold;

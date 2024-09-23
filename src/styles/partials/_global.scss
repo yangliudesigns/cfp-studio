@@ -1,3 +1,6 @@
+@use "./mixins" as *;
+@use "./typography" as *;
+@use "./variables" as *;
 
 
 * {
@@ -8,38 +11,5 @@
 body {
     font-family: $family;
     font-weight: $regular;
-    color: $primary-dark;
-    margin: 0 $margin-mobile;
-
-    @include tablet {
-        margin: 0 $margin-tablet;
-    }
-
-    @include desktop {
-        margin: 0 $margin-desktop;
-    }
-}
-
-
-h2 {
-    font-size: 2.25rem;
-    font-weight: $bold;
-}
-
-h4 {
-    font-size: 1.5rem;
-    font-weight: $bold;
-}
-
-p {
-    font-size: .875rem;
-}
-
-button {
-    font-size: 1rem;
-    font-weight: $bold;
-    background-color: $primary-dark;
-    color: $primary-white;
-    border: none;
-
+    color: $primary-text;
 }

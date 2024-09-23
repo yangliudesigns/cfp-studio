@@ -1,0 +1,60 @@
+@use "../../styles/partials/global" as *;
+@use "../../styles/partials/mixins" as *;
+@use "../../styles/partials/typography" as *;
+@use "../../styles/partials/variables" as *;
+
+
+.header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: $primary-white;
+    margin-bottom: 1rem;
+
+    @include desktop {
+        width: 88%;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 5.5rem;
+    }
+
+    &__logo {
+        margin: 1rem 0;
+        width: 13rem;
+    }
+
+    &__link {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+
+        @include desktop {
+            width: auto;
+            justify-content: flex-end;
+            gap: 1rem;
+        }
+    }
+
+    &__link > a {
+        width: 50%;
+        height: 2.25rem;
+        border-radius: 1.25rem;
+        text-align: center;
+        font-size: .875rem;
+        font-weight: $medium;
+        line-height: 2.25rem;
+        text-decoration: none;
+        color: $primary-text;
+
+        @include tablet {
+            font-size: 1rem;
+        }
+
+        @include desktop {
+            width: 100%;
+            padding: 0 1rem; 
+    }
+}
+}
