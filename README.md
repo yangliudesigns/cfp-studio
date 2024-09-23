@@ -9,8 +9,8 @@
 3. cp .env.example .env.local
    #update .env.local
 4. npm run build
-   npm run start
-   npm run dev
+5. npm run start
+6. npm run dev
 
 
 ## Overview
