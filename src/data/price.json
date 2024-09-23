@@ -2,21 +2,21 @@
     {
       "id": 201,
       "logoSrc": "logo1",
-      "location": "Destination",
+      "location": "DESTINATION",
       "description": "Wedding / Pre-Wedding",
       "price": 3999
     },
     {
       "id": 202,
       "logoSrc": "logo2",
-      "location": "GTA",
+      "location": "TORONTO",
       "description": "Wedding / Pre-Wedding",
       "price": 1999
     },
     {
       "id": 203,
       "logoSrc": "logo3",
-      "location": "GTA",
+      "location": "TORONTO",
       "description": "Engagement / Portrait",
       "price": 899
     }

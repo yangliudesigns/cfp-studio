@@ -1,6 +1,4 @@
-import "./ServiceCard";
 import { useNavigate } from 'react-router-dom';
-
 
 
 export default function ServiceCard({ text, imageSrc }) {

@@ -1,14 +1,8 @@
-// @use "../../styles/partials/global" as *;
-// @use "../../styles/partials/mixins" as *;
-// @use "../../styles/partials/typography" as *;
-// @use "../../styles/partials/variables" as *;
+@use "../../styles/partials/global" as *;
+@use "../../styles/partials/mixins" as *;
+@use "../../styles/partials/typography" as *;
+@use "../../styles/partials/variables" as *;
 
-
-.slide-container {
-    // width: 100%;
-    margin: 1rem 0;
-  }
-  
   
   .each-fade {
     display: flex;
@@ -17,7 +11,7 @@
   
   .each-fade > div img {
     width: 100%;
-    height: 100%;
+    // height: 100%;
     object-fit: cover;
   }
   

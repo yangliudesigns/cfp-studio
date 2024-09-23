@@ -1,22 +1,22 @@
 [
   {
     "id": 101,
-    "text": "Engagement",
+    "text": "ENGAGEMENT",
     "imageSrc": "/service-images/service-1.png"
   },
   {
     "id": 102,
-    "text": "Pre-Wedding",
+    "text": "PRE-WEDDING",
     "imageSrc": "/service-images/service-2.png"
   },
   {
     "id": 103,
-    "text": "Wedding",
+    "text": "WEDDING",
     "imageSrc": "/service-images/service-3.png"
   },
   {
     "id": 104,
-    "text": "Portrait",
+    "text": "PORTRAIT",
     "imageSrc": "/service-images/service-4.png"
   }
 ]
