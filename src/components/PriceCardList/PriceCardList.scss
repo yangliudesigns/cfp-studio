@@ -4,37 +4,13 @@
 @use "../../styles/partials/variables" as *;
 
 
-// .pricing-card-list {
-//     display: flex;
-//     flex-wrap: wrap;  // 让卡片能够换行排列
-//     justify-content: center;  // 卡片居中对齐
-//     gap: 1.25rem;
-//     padding: 1rem;
-//     flex-direction: column; // 默认是竖向排列 (mobile first)
-//     align-items: center;  // 卡片居中对齐
+.pricing-card-list {
+    display: flex;
+    flex-direction: column; 
 
-//     @include tablet {
-//       flex-direction: column; // 在 tablet 上保持竖向排列
-//       align-items: center; // 竖向排列时，卡片居中
-//     }
   
-//     @include desktop {
-//       flex-direction: row;  // 在 desktop 上改为横向排列
-//       justify-content: center;  // 卡片居中对齐
-//     }
-//   }
-  
-
-    // // 使用你的 tablet mixin：在平板设备上，每行显示2个卡片
-    // @include tablet {
-    //   .pricing-card {
-    //     flex: 1 1 calc(50% - 2.5rem);  // 平板设备时每行2个卡片
-    //   }
-    // }
-  
-    // // 使用你的 desktop mixin：在桌面设备上，每行显示3个卡片
-    // @include desktop {
-    //   .pricing-card {
-    //     flex: 1 1 calc(33.33% - 2.5rem);  // 桌面设备时每行3个卡片
-    //   }
-    // }
+    @include desktop {
+      flex-direction: row;  
+      margin: 0 4rem;
+    }
+  }
