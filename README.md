@@ -7,7 +7,7 @@
 1. cd cfp-studio
 2. npm i
 3. cp .env.example .env.local
-   <!-- update .env.local accordingly -->
+   # update .env.local
 4. npm run build
    npm run start
    npm run dev
@@ -74,8 +74,11 @@ The target users of the app are potential photography clients, including couples
   
 
 ### Mockups
-
-- **Wireframes**:
+![Home](https://github.com/user-attachments/assets/cc7dcd4b-1997-49f4-b7a4-a586425a95fd)
+![Gallery](https://github.com/user-attachments/assets/cccbd3d4-1a9a-4e42-ad91-5ce422c765ae)
+![Gallery - Expend](https://github.com/user-attachments/assets/96c99f00-5fed-4d76-afb7-8b79aa69f0f8)
+![Pricing](https://github.com/user-attachments/assets/239aae28-0eb6-47f1-bc15-6c29d40b1d2d)
+![Pricing-1](https://github.com/user-attachments/assets/9664ff14-cc42-4bec-b41a-f5615c71ff32)
 
 
 ### Data
