@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import './GalleryGrid.scss';
-import images from "../../data/gallery.json";
+import  { images } from "../../assets/galleries/galleryData";
+
 
 export default function GalleryGrid() {
   const [isModalOpen, setModalOpen] = useState(false);
@@ -32,7 +33,7 @@ export default function GalleryGrid() {
       resizeAllGridItems();
     };
 
-    // 为所有图片添加加载事件监听器
+
     const imageElements = gridRef.current.getElementsByTagName('img');
     for (let img of imageElements) {
       img.addEventListener('load', handleImageLoad);
