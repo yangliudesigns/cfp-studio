@@ -1,0 +1,53 @@
+[
+    {
+      "id": 301,
+      "question": "How do I book a photoshoot?",
+      "answer": "You can book a photoshoot by filling out our online booking form or contacting us directly via phone or email. We recommend booking at least two weeks in advance."
+    },
+    {
+      "id": 302,
+      "question": "What is included in the photoshoot package?",
+      "answer": "Our packages typically include a set number of photos, professional editing, and an online gallery. Specific details are listed with each package, and we can customize based on your needs."
+    },
+    {
+      "id": 303,
+      "question": "How much do you charge for additional hours?",
+      "answer": "Additional hours are charged at $150 per hour. Please let us know in advance if you think you'll need extra time."
+    },
+    {
+      "id": 304,
+      "question": "What is your cancellation policy?",
+      "answer": "Cancellations made more than 48 hours before the scheduled session will receive a full refund. Cancellations within 48 hours will be subject to a 50% fee."
+    },
+    {
+      "id": 305,
+      "question": "How long will it take to receive the final photos?",
+      "answer": "You can expect to receive your final edited photos within 2-3 weeks after the shoot. If you need them sooner, expedited editing is available for an additional fee."
+    },
+    {
+      "id": 306,
+      "question": "Can I choose the location for the photoshoot?",
+      "answer": "Yes, we offer both in-studio and on-location photoshoots. You are free to choose the location, or we can suggest some based on your preferences."
+    },
+    {
+      "id": 307,
+      "question": "What should I wear for the photoshoot?",
+      "answer": "We recommend wearing comfortable clothing that makes you feel confident. Solid colors usually work best, and avoid busy patterns. Feel free to bring outfit changes!"
+    },
+    {
+      "id": 308,
+      "question": "Do you provide hair and makeup services?",
+      "answer": "We can arrange professional hair and makeup services for an additional fee. Please let us know in advance if you'd like to add this to your session."
+    },
+    {
+      "id": 309,
+      "question": "Can I bring someone with me to the photoshoot?",
+      "answer": "Yes, you are welcome to bring a friend or family member to your session. We want you to feel as comfortable as possible during your shoot."
+    },
+    {
+      "id": 310,
+      "question": "How many photos will I receive?",
+      "answer": "The number of final photos depends on the package you choose. Most packages include 20-50 professionally edited images, but we can accommodate custom requests."
+    }
+  ]
+  
