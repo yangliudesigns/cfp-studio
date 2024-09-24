@@ -1,6 +1,41 @@
-@use "../../styles/partials/global" as *;
-@use "../../styles/partials/mixins" as *;
-@use "../../styles/partials/typography" as *;
-@use "../../styles/partials/variables" as *;
+// @use "../../styles/partials/global" as *;
+// @use "../../styles/partials/mixins" as *;
+// @use "../../styles/partials/typography" as *;
+// @use "../../styles/partials/variables" as *;
 
 
+// .faq-item {
+//     margin-bottom: 1rem;
+//     border: 1px solid $primary-gray;
+//     border-radius: 5px;
+//     padding: 1rem;
+//     cursor: pointer;
+  
+//     .faq-question {
+//       display: flex;
+//       justify-content: space-between;
+//       align-items: center;
+//       font-size: 1.2rem;
+//       font-weight: $medium;
+
+  
+//       .icon {
+//         width: 24px;
+//         height: 24px;
+//         transition: transform 0.3s ease; 
+//       }
+  
+
+//       .open {
+//         transform: rotate(45deg); 
+//       }
+//     }
+  
+//     .faq-answer {
+//       margin-top: 0.5rem;
+//       padding: 0.5rem 0;
+//       border-top: 1px solid $primary-gray;
+//       font-size: 1rem;
+//     }
+//   }
+  
