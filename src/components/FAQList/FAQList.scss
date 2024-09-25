@@ -1,0 +1,80 @@
+@use "../../styles/partials/global" as *;
+@use "../../styles/partials/mixins" as *;
+@use "../../styles/partials/typography" as *;
+@use "../../styles/partials/variables" as *;
+
+
+.faq-list {
+    max-width: 60rem;
+    margin: 0 auto;
+    padding: 1.25rem;
+
+    .faq-title {
+        font-size: 1.5rem;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 1.25rem;
+
+        @include tablet {
+            font-size: 3rem;
+            margin-bottom: 2rem;
+        }
+
+    }
+  
+    .faq-item {
+      margin-bottom: 0.75rem;
+      background-color: $primary-bg;
+    //   border: 1px solid $primary-gray;
+    //   border-radius: 0.75rem;
+      padding: .75rem;
+      cursor: pointer;
+
+      @include tablet {
+        margin-bottom: 1.125rem;
+        padding: 1.25rem;
+      }
+      
+      .faq-question {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 1rem;
+        font-weight: $medium;
+        line-height: 1.35rem;
+        color: $primary-text;
+
+        @include tablet {
+            font-size: 1.25rem;
+        }
+
+  
+        .icon {
+          width: 24px;
+          height: 24px;
+          transition: transform 0.3s ease-in-out;
+        }
+  
+        .open {
+          transform: rotate(45deg); 
+        }
+      }
+  
+      .faq-answer {
+        margin-top: 0.75rem;
+        padding: .75rem 0 0.5rem;
+        border-top: 1px solid $primary-gray;
+        font-size: .875rem;
+        line-height: 1.125rem;
+        color: $secondart-text;
+
+        @include tablet {
+            margin-top: 1rem;
+            padding: 1.25rem 0 0.5rem;
+            font-size: 1.125rem;
+            line-height: 1.75rem;
+        }
+      }
+    }
+  }
+  

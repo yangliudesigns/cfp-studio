@@ -1,0 +1,41 @@
+@use "../../styles/partials/global" as *;
+@use "../../styles/partials/mixins" as *;
+@use "../../styles/partials/typography" as *;
+@use "../../styles/partials/variables" as *;
+
+
+.Philosophy {
+    padding: 2rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    @include tablet {
+        padding: 4rem 6rem;
+    }
+
+    &__header {
+        font-size: 1.5rem;
+        font-style: italic;
+        line-height: 2rem;
+        text-align: center;
+
+        @include desktop {
+            font-size: 2rem;
+            line-height: 2.75rem;
+        }
+    }
+
+    &__name {
+        margin-top: 2rem;
+        font-style: italic;
+        line-height: 1.5rem;
+        text-align: center;
+        color: $secondary-color;
+
+        @include desktop {
+            font-size: 1.25rem;
+        }
+    }
+}
+
