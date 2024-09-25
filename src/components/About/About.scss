@@ -1,0 +1,91 @@
+@use "../../styles/partials/global" as *;
+@use "../../styles/partials/mixins" as *;
+@use "../../styles/partials/typography" as *;
+@use "../../styles/partials/variables" as *;
+
+
+.about-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    overflow: hidden;
+    padding: 2rem;
+
+    @include tablet {
+        min-height: 100vh;
+        flex-direction: row;
+        justify-content: center;
+        padding: 4rem;
+    }
+
+    @include desktop {
+        padding: 9rem;
+    }
+
+    .about-image {
+        width: 100%;
+        height: auto;
+        position: relative;
+        order: 1;
+        margin-bottom: 1rem;
+
+        @include tablet {
+            height: 80vh;
+            width: 60%;
+            margin-left: -5%;
+            order: 2;
+            margin-bottom: 0;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+            display: block;
+            
+            @include tablet {
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+
+    .about-text {
+        background-color: $primary-text;
+        color: $primary-white;
+        padding: 2rem;
+        width: 100%;
+        text-align: left;
+        z-index: 2;
+        order: 2;
+
+        @include tablet {
+            width: 45%;
+            height: auto;
+            position: relative;
+            order: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 3rem;
+        }
+
+        &__title {
+            font-size: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        &__name {
+            font-size: 1.125rem;
+            font-weight: bold;
+        }
+
+        &__description {
+            font-size: 1rem;
+            line-height: 1.5;
+            margin-bottom: 2.75rem;
+        }
+    }
+}

@@ -10,7 +10,7 @@
   flex-direction: column;  
   gap: 2rem;  
   padding: 2rem;
-  max-width: 75rem; 
+  // max-width: 75rem; 
   margin: 0 auto;  // center
   background-color: $primary-bg; 
 
@@ -23,7 +23,7 @@
   }
 
   @include desktop {
-    padding: 8rem;
+    padding: 8rem 12rem;
     gap: 2.5rem;
   }
 }

@@ -3,19 +3,20 @@
 @use "../../styles/partials/typography" as *;
 @use "../../styles/partials/variables" as *;
 
+
 .booking-section {
     text-align: center;
     background-color: $primary-bg;
-    margin: 2rem 0;
-    padding: 2rem;
+    margin-bottom: 2rem;
+    padding: 3rem 2rem;
 
     @include tablet {
-      margin: 3rem 0;
+      margin-bottom: 3rem;
       padding: 4rem;
     }
 
     @include desktop {
-      margin: 5rem 0;
+      margin-bottom: 5rem;
       padding: 6rem 10rem;
     }
 

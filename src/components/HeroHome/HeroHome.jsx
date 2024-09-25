@@ -11,14 +11,15 @@ import hero7 from "../../assets/images/hero-7.webp";
 import hero8 from "../../assets/images/hero-8.webp";
 import hero9 from "../../assets/images/hero-9.webp";
 import hero10 from "../../assets/images/hero-10.webp";
-import hero11 from "../../assets/images/hero-11.webp";
+
+
 
 export default function Hero() {
 
     const fadeImages = [
         hero1, hero2, hero3, hero4,
         hero5, hero6, hero7, hero8,
-        hero9, hero10, hero11,
+        hero9, hero10,
       ];
     
 
