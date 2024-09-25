@@ -95,11 +95,11 @@ export default function Booking() {
       return;
     }
 
-    const endDateTime = new Date(startDateTime.getTime() + 60 * 60 * 1000); // 1 hour later
+    const endDateTime = new Date(startDateTime.getTime() + 30 * 60 * 1000); // 30min consultant
 
     const event = {
-      summary: "New Booking",
-      description: "A new booking from your website",
+      summary: "30-Minute Consultation for Photography Services",
+      description: "A new booking from your cfp website",
       start: {
         dateTime: startDateTime.toISOString(),
         timeZone: Intl.DateTimeFormat().resolvedOptions().timeZone,
