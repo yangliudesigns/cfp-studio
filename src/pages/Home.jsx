@@ -1,5 +1,5 @@
 import Header from "../components/Header/Header";
-import Hero from "../components/Hero/Hero";
+import Hero from "../components/HeroHome/HeroHome";
 import About from "../components/About/About";
 import Service from "../components/Service/Service";
 import Footer from "../components/Footer/Footer";

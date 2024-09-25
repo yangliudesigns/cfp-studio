@@ -533,5 +533,30 @@ export const images = [
     id: 107,
     src: '/src/assets/galleries/107.webp',
     alt: 'Image 107'
+  },
+  {
+    id: 108,
+    src: '/src/assets/galleries/108.webp',
+    alt: 'Image 108'
+  },
+  {
+    id: 109,
+    src: '/src/assets/galleries/109.webp',
+    alt: 'Image 109'
+  },
+  {
+    id: 110,
+    src: '/src/assets/galleries/110.webp',
+    alt: 'Image 110'
+  },
+  {
+    id: 111,
+    src: '/src/assets/galleries/111.webp',
+    alt: 'Image 111'
+  },
+  {
+    id: 112,
+    src: '/src/assets/galleries/112.webp',
+    alt: 'Image 112'
   }
 ];
