@@ -18,5 +18,15 @@
     "id": 104,
     "text": "PORTRAIT",
     "imageSrc": "/service-images/service-4.png"
+  },
+  {
+    "id": 105,
+    "text": "FAMILY",
+    "imageSrc": "/service-images/service-5.png"
+  },
+  {
+    "id": 106,
+    "text": "HEADSHOT",
+    "imageSrc": "/service-images/service-6.png"
   }
 ]

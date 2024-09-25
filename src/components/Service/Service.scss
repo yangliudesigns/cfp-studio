@@ -10,7 +10,7 @@
   flex-direction: column;  
   gap: 2rem;  
   padding: 2rem;
-  max-width: 75rem; 
+  // max-width: 75rem; 
   margin: 0 auto;  // center
   background-color: $primary-bg; 
 
@@ -23,7 +23,7 @@
   }
 
   @include desktop {
-    padding: 8rem;
+    padding: 8rem 12rem;
     gap: 2.5rem;
   }
 }
@@ -36,7 +36,11 @@
   aspect-ratio: 1 / 1;  
 
   @include tablet {
-    width: calc(50% - 32px);  // tablet & desktop each card width 50%
+    width: calc(50% - 1rem);  // tablet each card width 50%
+  }
+
+  @include desktop {
+    width: calc(33.333% - 1.667rem);  // desktop each card width 33.333%
   }
 
   &__image {
@@ -60,8 +64,8 @@
 
   &__text {
     color: $primary-white;
-    font-size: 1.5rem;
-    font-weight: bold;
+    font-size: 1.25rem;
+    font-weight: $semi;
     z-index: 2;  // ensure on the overlay
 
     @include tablet {
@@ -69,7 +73,7 @@
     }
 
     @include desktop {
-      font-size: 2rem;
+      font-size: 1.75rem;
     }
   }
 }

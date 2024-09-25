@@ -147,10 +147,10 @@ export default function Booking() {
   return (
     <div className="booking-section">
       <p className="booking-section__text">
-        If you're interested in booking one of my packages, 
-        or if none of the packages meet your specific needs, 
-        please book a 30-minute meeting with me to discuss 
-        your requirements in detail.
+      If you're interested in any of my photography services, 
+      or if you'd like to discuss a customized package, feel free 
+      to schedule a 30-minute consultation with me to go over 
+      your specific needs.
       </p>
       <button className="booking-section__btn" onClick={handleBookingClick}>
         Book an appointment

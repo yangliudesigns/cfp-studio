@@ -1,0 +1,32 @@
+@use "../../styles/partials/global" as *;
+@use "../../styles/partials/mixins" as *;
+@use "../../styles/partials/typography" as *;
+@use "../../styles/partials/variables" as *;
+
+
+
+.video-background {
+    position: relative;
+    width: 100%;
+    height: 300px; // 默认高度，适用于移动设备
+    overflow: hidden;
+
+    @include tablet {
+      height: 400px;
+    }
+
+    @include desktop {
+      height: 500px;
+    }
+  
+    .background-video {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 100%;
+      height: 100%;
+      object-fit: cover; /* 让视频保持宽高比并充满整个页面 */
+      transform: translate(-50%, -50%); /* 确保视频居中 */
+    }
+  }
+  

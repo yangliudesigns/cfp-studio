@@ -25,14 +25,18 @@
       }
 
       @include desktop {
-        margin: 1.5rem 1.5rem 0;
+        margin: 1.5rem;
       }
     }
 
   
     .pricing-card__logo {
-      width: 8rem;
+      width: 9rem;
       margin-bottom: 9rem;
+
+      @include tablet {
+        width: 11rem;
+      }
     }
   
     .pricing-card__location,

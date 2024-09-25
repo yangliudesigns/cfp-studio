@@ -7,10 +7,14 @@
 .pricing-card-list {
     display: flex;
     flex-direction: column; 
+    margin-bottom: 1.5rem;
 
+    @include tablet {
+      margin-bottom: 2.5rem;
+    }
   
     @include desktop {
       flex-direction: row;  
-      margin: 0 4rem;
+      margin: 5rem;
     }
   }
